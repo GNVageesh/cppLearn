@@ -8,12 +8,11 @@ int main()
     int sum = 0;
     int n = 11;
 
-    while (n > 10 && n < 30)
+    for (int i = 11; i < 30; i++)
     {
-        if (n % 2 == 0)
+        if (i % 2 != 0)
         {
-            sum += n;
-            n++;
+            sum += i;
         }
     }
 
